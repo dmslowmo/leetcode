@@ -29,6 +29,7 @@ public class Solution {
    public static void main(String[] args) {
       Solution s = new Solution();
       System.out.println(s.isPalindrome(7874787));
+	  System.out.println(s.isPalindrome(12345));
    }
 
 }
