@@ -1,7 +1,5 @@
 package flipAndInvert;
 
-import java.util.Stack;
-
 public class Solution {
     private static final int[] invert = {1, 0};
 
@@ -9,12 +7,8 @@ public class Solution {
         int[][] B = new int[A.length][A[0].length];
 
         for (int i = 0; i < A.length; i++) {
-            Stack<Integer> stack = new Stack<>();
-            for (int j = 0; j < A[i].length; j++) {
-                stack.push(A[i][j]);
-            }
-            for (int j = 0; j < A[i].length; j++) {
-                B[i][j] = invert[stack.pop()];
+            for (int j = A[i].length-1; j >= 0; j--) {
+                B[i][A[i].length-1-j] = invert[A[i][j]];
             }
         }
         return B;
