@@ -1,4 +1,4 @@
-package tree2str;
+package main.java.tree2str;
 
 import org.junit.After;
 import org.junit.Before;

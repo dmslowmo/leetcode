@@ -1,4 +1,4 @@
-package tree2str;
+package main.java.tree2str;
 
  //Definition for a binary tree node.
  public class TreeNode {

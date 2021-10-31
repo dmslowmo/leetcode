@@ -1,4 +1,4 @@
-package tree2str;
+package main.java.tree2str;
 
 import java.util.ArrayList;
 import java.util.HashMap;
